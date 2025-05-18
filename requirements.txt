@@ -1,0 +1,12 @@
+datasets
+numpy==1.26.4
+tqdm
+pillow
+torch==1.13.1
+torchvision==0.14.1
+transformers==4.36.2
+peft==0.7.1
+tiktoken
+matplotlib
+einops
+transformers_stream_generator==0.0.4
