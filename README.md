@@ -9,7 +9,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-b31c1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/xxxx.xxxxx)
+[![Paper](https://img.shields.io/badge/Paper-b31c1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.12632)
 [![Code](https://img.shields.io/badge/Code-black?logo=github&logoColor=white)](https://github.com/runamu/monday)
 [![Dataset](https://img.shields.io/badge/Dataset-1f5fa0?logo=huggingface&logoColor=ffe062)](https://huggingface.co/datasets/runamu/MONDAY)
 [![Project](https://img.shields.io/badge/Project-darkgreen?logo=rocket&logoColor=white)](https://monday-dataset.github.io)
@@ -18,7 +18,7 @@
 </div>
 
 ## 🎉 News
-- **2025.05.09**: Released the [MONDAY dataset](https://huggingface.co/datasets/runamu/MONDAY) with data processing code and an example evaluation script. Pretrained checkpoints and training scripts will follow.
+- **2025.05.19**: Released the [MONDAY dataset](https://huggingface.co/datasets/runamu/MONDAY) with data processing code and an example evaluation script.
 - **2025.04.19**: The paper was accepted to the [3rd MMFM Workshop](https://sites.google.com/view/mmfm3rdworkshop) on "What is Next in Multimodal Foundation Models?"
 - **2025.02.26**: The paper was accepted to [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025).
 
@@ -76,7 +76,7 @@ conda install -c conda-forge ffmpeg -y
 ### 1. Extract Scenes from Videos
 To extract the scenes from the videos, you need to download the videos corresponding to the `video_id`'s in the MONDAY dataset from YouTube. The corresponding video URLs can be found in `data/video_urls/video_urls_{split}.txt`. For agent model evaluation, you only need to download the videos in the `test` and `test_unseen_os` splits.
 
-Please put the downloaded videos in the `data/videos` directory. The filenames should be in the format `{video_id}.mp4`.
+Please put the downloaded videos in the `data/videos/` directory. The filenames should be in the format `{video_id}.mp4`.
 
 Run the following command to extract the scenes from the videos. The extracted images will be saved in the `data/images/` directory.
 ```bash
