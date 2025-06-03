@@ -29,16 +29,15 @@
 
 <div align="center" style="font-family: Arial, sans-serif;">
   <p>
-    <!-- <a href="#updates" style="text-decoration: none;">🎉 Updates</a> · -->
-    <a href="#monday-overview" style="text-decoration: none;">📱 MONDAY Overview</a> ·
-    <a href="#environment-setup" style="text-decoration: none;">✨ Environment Setup</a> ·
-    <a href="#dataset-usage" style="text-decoration: none;">🚀 Dataset Usage</a> ·
+    <a href="#-monday-overview" style="text-decoration: none;">📱 MONDAY Overview</a> ·
+    <a href="#-environment-setup" style="text-decoration: none;">✨ Environment Setup</a> ·
+    <a href="#-dataset-usage" style="text-decoration: none;">🚀 Dataset Usage</a> ·
 
   </p>
   <p>
-    <a href="#planned-updates" style="text-decoration: none;">🧭 Planned Updates</a> ·
-    <a href="#citation" style="text-decoration: none;">🎸 Citation</a> ·
-    <a href="#license" style="text-decoration: none;">📄 License</a>
+    <a href="#-planned-updates" style="text-decoration: none;">🧭 Planned Updates</a> ·
+    <a href="#-citation" style="text-decoration: none;">🎸 Citation</a> ·
+    <a href="#-license" style="text-decoration: none;">📄 License</a>
   </p>
 </div>
 
